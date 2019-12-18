@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GDR]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GDR tEST(failed)">
+    <classes>
+      <class name="com.GDR.Clients">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ManageGeneric"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.GDR.Clients -->
+    </classes>
+  </test> <!-- GDR tEST(failed) -->
+</suite> <!-- Failed suite [GDR] -->
